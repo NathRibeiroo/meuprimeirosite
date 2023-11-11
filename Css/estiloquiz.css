@@ -20,7 +20,7 @@ body {
 
 .container {
     background-color:burlywood;
-    width: 50%;
+    width: 90%;
     max-width: 800%;
     
     border: 2px solid black;
@@ -56,6 +56,10 @@ body {
     gap: 16px;
     
  }
+
+.answer:disabled {
+    cursor: not-allowed;
+  }
 
  .next-question {
    margin-top: 32px;
